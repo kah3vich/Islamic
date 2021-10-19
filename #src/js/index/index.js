@@ -21,6 +21,10 @@ var swiper = new Swiper(".mySwiper", {
         prevEl: ".ind-headers__slider .swiper-controls .swiper-button-prev",
     },
     keyboard: true,
+    effect: 'fade',
+    fadeEffect: {
+        crossFade: true
+    },
 });
 
 
