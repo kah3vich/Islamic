@@ -1,6 +1,7 @@
 @@include('components/_head.html')
 
     <section class="ind-header">
+        <div id="showScroll"></div>
         <div class="containers">
             <div class="ind-header__nav">
                 <div class="ind-header__nav-logo">Islamic news</div>
@@ -8,6 +9,11 @@
                     <div class="ind-header__nav-item">
                         <div class="ind-header__nav-item-lang">english</div>
                         <div class="ind-header__nav-item-select">@@include('iconsprite/index/header-arrow-down.svg')</div>
+                        <select class="form-select display-n" multiple aria-label="multiple select example">
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
                     </div>
                     <div class="ind-header__nav-item">
                         <div class="ind-header__nav-item-basket">
@@ -113,6 +119,90 @@
         </div>
     </header>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <section class="ind-last">
+        <div class="containers">
+            <div class="ind-last__banner">
+                <div class="ind-last__banner-title">Tragedy and hospitality: 
+                    Daily life with refugees from Tigray</div>
+                <div class="ind-last__banner-photo">
+                    <img src="./img/index/last-img-1.png" alt="img">
+                    <button class="ind-last__banner-photo-btn"><a href="#">Read More</a></button>
+                </div>
+                <div class="ind-last__banner-text">Just days ago I was sitting on the floor of my home in the Gaza Strip, trying to work. The roar of planes overhead didn’t stop for a second and I was afraid. It was hard to concentrate when explosions kept shaking my house like an </div>
+                <div class="ind-last__banner-add">
+                    <p>News</p>
+                    <div class="ind-last__banner-add-line"></div>
+                </div>
+            </div>
+            <div class="ind-last__add">
+                <div class="ind-last__add-text">I STILL CAN’T BELIEVE I’M ALIVE
+                    BUT I’M AFRAID GAZA MAY FACE THIS FEAR 
+                    AND HEARTBREAK AGAIN</div>
+                <div class="ind-last__add-photo">
+                    <img src="./img/index/last-img-2.png" alt="img">
+                </div>
+                <div class="ind-last__add-texts">I STILL CAN’T BELIEVE I’M ALIVE
+                    BUT I’M AFRAID GAZA MAY FACE THIS FEAR </div>
+                <div class="ind-last__add-photo">
+                    <img src="./img/index/last-img-3.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="containers">
+            <div class="footer__title">Islamic news</div>
+            <div class="footer__block">
+                <div class="footer__block-contact">
+                    <ul class="footer__block-contact-list">
+                        <li class="footer__block-contact-item">Facebook</li>
+                        <li class="footer__block-contact-item">Instagram</li>
+                        <li class="footer__block-contact-item">Linkedin</li>
+                        <li class="footer__block-contact-item">Pinterest</li>
+                    </ul>
+                    <div class="footer__block-contact-title">Subscribe to the newsletter</div>
+                    <div class="footer__block-contact-add">
+                        <div class="footer__block-contact-add-text">Your email address</div>
+                        <button class="footer__block-contact-add-btn">@@include('iconsprite/index/link.svg')</button>
+                    </div>
+                    <input type="text" class="footer__block-contact-input">
+                </div>
+                <ul class="footer__block-list">
+                    <div class="footer__block-list-title">Chapter</div>
+                    <li class="footer__block-list-item">Chapter</li>
+                    <li class="footer__block-list-item">Chapter</li>
+                    <li class="footer__block-list-item">Chapter</li>
+                    <li class="footer__block-list-item">Chapter</li>
+                    <li class="footer__block-list-item">Chapter</li>
+                    <li class="footer__block-list-item">Chapter</li>
+                </ul>
+                <ul class="footer__block-list">
+                    <div class="footer__block-list-title">Chapter</div>
+                    <li class="footer__block-list-item">Chapter</li>
+                    <li class="footer__block-list-item">Chapter</li>
+                    <li class="footer__block-list-item">Chapter</li>
+                    <li class="footer__block-list-item">Chapter</li>
+                    <li class="footer__block-list-item">Chapter</li>
+                    <li class="footer__block-list-item">Chapter</li>
+                </ul>
+                <ul class="footer__block-list">
+                    <div class="footer__block-list-title">Chapter</div>
+                    <li class="footer__block-list-item">Chapter</li>
+                    <li class="footer__block-list-item">Chapter</li>
+                    <li class="footer__block-list-item">Chapter</li>
+                </ul>
+            </div>
+            <div class="footer__add">
+                <div class="footer__add-rights">© 2021 Islamic news.All right reserved</div>
+                <ul class="footer__add-list">
+                    <li class="footer__add-item">Chapter</li>
+                    <li class="footer__add-item">Chapter</li>
+                    <li class="footer__add-item">Chapter</li>
+                    <li class="footer__add-item">Chapter</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
 @@include('components/_script.html')
