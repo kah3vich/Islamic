@@ -1,0 +1,105 @@
+//! --------------------------------------------------------------------
+//! Миксин для шрифтов -------------------------------------------------
+//! --------------------------------------------------------------------
+
+@mixin font($font_name, $file_name, $weight, $style) {
+    @font-face {
+        font-family: $font_name;
+        font-display: swap;
+        src: url("../fonts/#{$file_name}.woff") format("woff"), url("../fonts/#{$file_name}.woff2") format("woff2");
+        font-weight: #{$weight};
+        font-style: #{$style};
+    }
+}
+
+
+//! --------------------------------------------------------------------
+//! Подключение файлов -------------------------------------------------
+//! --------------------------------------------------------------------
+
+@import "fonts";
+@import "index/style";
+
+
+//! --------------------------------------------------------------------
+//! Переменные ---------------------------------------------------------
+//! --------------------------------------------------------------------
+
+$white: #fff;
+
+
+//! --------------------------------------------------------------------
+//! Стили --------------------------------------------------------------
+//! --------------------------------------------------------------------
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #FFFFFF;
+    font-family: Roboto;
+    position: relative;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+input {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border: none;
+}
+button {
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+.containers {
+    max-width: 1440px;
+    padding: 0 165px;
+    margin: 0 auto;
+}
+ol, ul {
+    padding-left: 0;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.display-n {
+    display: none !important;
+}
+.display-f {
+    display: flex !important;
+}
+.display-g {
+    display: grid !important;
+}
+input[type="range" i] {
+    color: transparent;
+}
+.blocking {
+    pointer-events: none !important;
+    opacity: 0.5 !important;
+    transition: all 0.5s ease;
+}
+
+
+
+
+
+
+
