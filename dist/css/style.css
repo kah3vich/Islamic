@@ -939,7 +939,7 @@
 .ind-news__banner-wrapper::after {
   content: "";
   -webkit-filter: brightness(45%);
-  background: url(../../img/index/banner-new.png) no-repeat;
+  background: url(../img/index/banner-new.png) no-repeat;
   background-size: cover;
   position: absolute;
   top: 0;
@@ -1089,6 +1089,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin: 79px 0 0 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
