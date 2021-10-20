@@ -2,3 +2,4 @@
 <br>
 
 ## Detail: [click me](https://kah3vich.github.io/Islamic/dist/detail.html)
+## Category: [click me](https://kah3vich.github.io/Islamic/dist/category.html)

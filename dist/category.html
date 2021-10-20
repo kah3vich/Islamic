@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Islamic</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.0/animate.min.css"/>
+    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"></script>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+    <section class="cat-header">
+        <div id="showScroll"></div>
+        <div class="containers">
+            <div class="cat-header__nav">
+                <div class="cat-header__nav-logo">Islamic news</div>
+                <ul class="cat-header__nav-list">
+                    <div class="cat-header__nav-item">
+                        <div class="cat-header__nav-item-lang">english</div>
+                        <div class="cat-header__nav-item-select"><svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.80866 4.69712L8.32824 1.17747C8.40971 1.09607 8.45459 0.987401 8.45459 0.87153C8.45459 0.75566 8.40971 0.646991 8.32824 0.565586L8.06911 0.306389C7.90025 0.137727 7.62581 0.137727 7.45722 0.306389L4.50169 3.26192L1.54287 0.303109C1.46141 0.221704 1.3528 0.176758 1.23699 0.176757C1.12106 0.176757 1.01246 0.221704 0.930922 0.303109L0.671853 0.562306C0.590384 0.643776 0.545502 0.75238 0.545502 0.868251C0.545502 0.984121 0.590383 1.09279 0.671853 1.17419L4.19465 4.69712C4.27637 4.77872 4.38549 4.82353 4.50149 4.82328C4.61794 4.82353 4.727 4.77872 4.80866 4.69712Z" fill="#ADD4A9"/>
+</svg>
+</div>
+                        <select class="form-select display-n" multiple aria-label="multiple select example">
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="cat-header__nav-item">
+                        <div class="cat-header__nav-item-basket">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.5 15.1579C6.20333 15.1579 5.91332 15.2412 5.66664 15.3974C5.41997 15.5535 5.22771 15.7755 5.11418 16.0351C5.00065 16.2948 4.97094 16.5805 5.02882 16.8562C5.0867 17.1318 5.22956 17.385 5.43934 17.5838C5.64912 17.7825 5.91639 17.9179 6.20736 17.9727C6.49834 18.0275 6.79994 17.9994 7.07403 17.8918C7.34811 17.7843 7.58238 17.6021 7.7472 17.3684C7.91203 17.1348 8 16.86 8 16.5789C8 16.2021 7.84196 15.8406 7.56066 15.5741C7.27936 15.3076 6.89782 15.1579 6.5 15.1579ZM17 12.3158H5C4.73478 12.3158 4.48043 12.216 4.29289 12.0383C4.10536 11.8606 4 11.6197 4 11.3684C4 11.1172 4.10536 10.8762 4.29289 10.6985C4.48043 10.5209 4.73478 10.4211 5 10.4211H13.4912C14.1426 10.4191 14.7758 10.2171 15.2959 9.84552C15.816 9.4739 16.195 8.95262 16.376 8.35979L17.9614 3.10254C18.004 2.96154 18.0114 2.81312 17.9831 2.66895C17.9548 2.52478 17.8915 2.3888 17.7983 2.27172C17.7051 2.15464 17.5845 2.05966 17.446 1.99424C17.3075 1.92882 17.1548 1.89476 17 1.89474H4.73907C4.53206 1.34276 4.15044 0.864672 3.64622 0.525613C3.14201 0.186554 2.53971 0.00301334 1.92139 0H1C0.734784 0 0.48043 0.0998117 0.292893 0.277478C0.105357 0.455144 0 0.696111 0 0.947368C0 1.19863 0.105357 1.43959 0.292893 1.61726C0.48043 1.79492 0.734784 1.89474 1 1.89474H1.92139C2.13847 1.89546 2.34947 1.96277 2.52279 2.08661C2.6961 2.21044 2.82242 2.38413 2.88281 2.58167L3.03833 3.09774L3.03857 3.10254L4.6792 8.54251C3.91576 8.62031 3.21287 8.97247 2.71527 9.52648C2.21766 10.0805 1.96321 10.7942 2.00433 11.5205C2.04544 12.2469 2.37898 12.9307 2.93626 13.4312C3.49355 13.9316 4.23216 14.2105 5 14.2105H17C17.2652 14.2105 17.5196 14.1107 17.7071 13.933C17.8946 13.7554 18 13.5144 18 13.2632C18 13.0119 17.8946 12.7709 17.7071 12.5933C17.5196 12.4156 17.2652 12.3158 17 12.3158ZM15.6743 3.78947L14.4531 7.83892C14.3928 8.03662 14.2664 8.21047 14.093 8.3344C13.9196 8.45833 13.7084 8.52567 13.4912 8.52632H6.75439L6.49945 7.68106L5.32642 3.78947H15.6743ZM14.5 15.1579C14.2033 15.1579 13.9133 15.2412 13.6666 15.3974C13.42 15.5535 13.2277 15.7755 13.1142 16.0351C13.0006 16.2948 12.9709 16.5805 13.0288 16.8562C13.0867 17.1318 13.2296 17.385 13.4393 17.5838C13.6491 17.7825 13.9164 17.9179 14.2074 17.9727C14.4983 18.0275 14.7999 17.9994 15.074 17.8918C15.3481 17.7843 15.5824 17.6021 15.7472 17.3684C15.912 17.1348 16 16.86 16 16.5789C16 16.2021 15.842 15.8406 15.5607 15.5741C15.2794 15.3076 14.8978 15.1579 14.5 15.1579Z" fill="black"/>
+</svg>
+
+                            <div class="cat-header__nav-item-basket-count">1</div>
+                        </div>
+                        <div class="cat-header__nav-item-search"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16.4567 15.4843L12.4106 11.2762C13.451 10.0396 14.0209 8.48359 14.0209 6.86374C14.0209 3.07913 10.9418 0 7.1572 0C3.37259 0 0.293457 3.07913 0.293457 6.86374C0.293457 10.6484 3.37259 13.7275 7.1572 13.7275C8.578 13.7275 9.93194 13.299 11.0895 12.4854L15.1663 16.7255C15.3367 16.9024 15.5659 17 15.8115 17C16.044 17 16.2645 16.9114 16.4319 16.7502C16.7876 16.4079 16.799 15.8403 16.4567 15.4843ZM7.1572 1.79054C9.95462 1.79054 12.2304 4.06632 12.2304 6.86374C12.2304 9.66117 9.95462 11.9369 7.1572 11.9369C4.35978 11.9369 2.084 9.66117 2.084 6.86374C2.084 4.06632 4.35978 1.79054 7.1572 1.79054Z" fill="black"/>
+</svg>
+</div>
+                        <div class="cat-header__nav-item-menu"><svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<line y1="1" x2="18" y2="1" stroke="black" stroke-width="2"/>
+<line y1="6" x2="18" y2="6" stroke="black" stroke-width="2"/>
+<line y1="11" x2="18" y2="11" stroke="black" stroke-width="2"/>
+</svg>
+</div>
+                    </div>
+                </ul>
+            </div>
+            <div class="cat-header__line"></div>
+            <div class="cat-header__content">
+                <div class="cat-header__content-item">Home</div>
+                <div class="cat-header__content-item">About Us</div>
+                <div class="cat-header__content-item">What we do</div>
+                <div class="cat-header__content-item">Current Appeals</div>
+                <div class="cat-header__content-item">Our Campaigns</div>
+                <div class="cat-header__content-item">Media</div>
+                <div class="cat-header__content-item">Home</div>
+                <div class="cat-header__content-item">About Us</div>
+                <div class="cat-header__content-item">What we do</div>
+                <div class="cat-header__content-item">Current Appeals</div>
+                <div class="cat-header__content-item">Our Campaigns</div>
+                <div class="cat-header__content-item">Media</div>
+                <div class="cat-header__content-item">Home</div>
+                <div class="cat-header__content-item">About Us</div>
+                <div class="cat-header__content-item">What we do</div>
+                <div class="cat-header__content-item">Current Appeals</div>
+                <div class="cat-header__content-item">Our Campaigns</div>
+                <div class="cat-header__content-item">Media</div>
+            </div>
+        </div>
+    </section>
+
+    <header class="cat-headers">
+        <div class="cat-headers__block">
+            
+        </div>
+    </header>
+
+
+    <footer class="footer">
+    <div class="containers">
+        <div class="footer__title">Islamic news</div>
+        <div class="footer__block">
+            <div class="footer__block-contact">
+                <ul class="footer__block-contact-list">
+                    <li class="footer__block-contact-item">Facebook</li>
+                    <li class="footer__block-contact-item">Instagram</li>
+                    <li class="footer__block-contact-item">Linkedin</li>
+                    <li class="footer__block-contact-item">Pinterest</li>
+                </ul>
+                <div class="footer__block-contact-title">Subscribe to the newsletter</div>
+                <div class="footer__block-contact-add">
+                    <div class="footer__block-contact-add-text">Your email address</div>
+                    <button class="footer__block-contact-add-btn"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.77783 2L18.0001 2V16.2222" stroke="white" stroke-width="3"/>
+<path d="M18 2L2 18" stroke="white" stroke-width="3"/>
+</svg>
+</button>
+                </div>
+                <input type="text" class="footer__block-contact-input">
+            </div>
+            <ul class="footer__block-list">
+                <div class="footer__block-list-title">Chapter</div>
+                <li class="footer__block-list-item">Chapter</li>
+                <li class="footer__block-list-item">Chapter</li>
+                <li class="footer__block-list-item">Chapter</li>
+                <li class="footer__block-list-item">Chapter</li>
+                <li class="footer__block-list-item">Chapter</li>
+                <li class="footer__block-list-item">Chapter</li>
+            </ul>
+            <ul class="footer__block-list">
+                <div class="footer__block-list-title">Chapter</div>
+                <li class="footer__block-list-item">Chapter</li>
+                <li class="footer__block-list-item">Chapter</li>
+                <li class="footer__block-list-item">Chapter</li>
+                <li class="footer__block-list-item">Chapter</li>
+                <li class="footer__block-list-item">Chapter</li>
+                <li class="footer__block-list-item">Chapter</li>
+            </ul>
+            <ul class="footer__block-list">
+                <div class="footer__block-list-title">Chapter</div>
+                <li class="footer__block-list-item">Chapter</li>
+                <li class="footer__block-list-item">Chapter</li>
+                <li class="footer__block-list-item">Chapter</li>
+            </ul>
+        </div>
+        <div class="footer__add">
+            <div class="footer__add-rights">© 2021 Islamic news.All right reserved</div>
+            <ul class="footer__add-list">
+                <li class="footer__add-item">Chapter</li>
+                <li class="footer__add-item">Chapter</li>
+                <li class="footer__add-item">Chapter</li>
+                <li class="footer__add-item">Chapter</li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<script src="js/script.min.js"></script>
+</body>
+</html>
