@@ -19,6 +19,7 @@
 
 @import "fonts";
 @import "index/style";
+@import "detail/style";
 
 
 //! --------------------------------------------------------------------
@@ -99,6 +100,153 @@ input[type="range" i] {
 
 
 
+
+.footer {
+    width: 100%;
+    background: #749471;
+    height: 100%;
+    padding: 88px 0 53px 0;
+    & .containers {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    &__title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 37px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__add {
+        margin: 121px 0 0 0;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        &-rights {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 22px;
+            color: #FFFFFF;
+        }
+        &-list {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 340px;
+        }
+        &-item {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: #FFFFFF;
+        }
+    }
+    &__block {
+        margin: 40px 0 0 0;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        &-list {
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: column;
+            margin: 0 0 0 135px;
+            &-item {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 29px;
+                color: #FFFFFF;
+                mix-blend-mode: normal;
+                opacity: 0.75;
+            }
+            &-title {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+                color: #FFFFFF;
+                margin: 0 0 17px 0;
+            }
+        }
+        &-contact {
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: column;
+            &-list {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 361px;
+            }
+            &-item {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+                color: #FFFFFF;
+            }
+            &-title {
+                margin: 101px 0 0 0;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 23px;
+                letter-spacing: -0.01em;
+                color: #FFFFFF;
+            }
+            &-add {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 339px;
+                margin: 37px 0 0 0;
+                &-text {
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #FFFFFF;
+                }
+                &-btn {
+                    background: transparent;
+                    cursor: pointer;
+                }
+            }
+            &-input {
+                margin: 25px 0 0 0;
+                width: 338px;
+                height: 20px;
+                left: 183px;
+                top: 7419px;
+                background: transparent;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 24px;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
 
 
 

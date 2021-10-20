@@ -1,0 +1,90 @@
+@@include('components/_head.html')
+
+    <section class="det-header">
+        <div id="showScroll"></div>
+        <div class="containers">
+            <div class="det-header__nav">
+                <div class="det-header__nav-logo">Islamic news</div>
+                <ul class="det-header__nav-list">
+                    <div class="det-header__nav-item">
+                        <div class="det-header__nav-item-lang">english</div>
+                        <div class="det-header__nav-item-select">@@include('iconsprite/detail/header-arrow-down.svg')</div>
+                        <select class="form-select display-n" multiple aria-label="multiple select example">
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="det-header__nav-item">
+                        <div class="det-header__nav-item-basket">
+                            @@include('iconsprite/detail/basket.svg')
+                            <div class="det-header__nav-item-basket-count">1</div>
+                        </div>
+                        <div class="det-header__nav-item-search">@@include('iconsprite/detail/search.svg')</div>
+                        <div class="det-header__nav-item-menu">@@include('iconsprite/detail/menu.svg')</div>
+                    </div>
+                </ul>
+            </div>
+            <div class="det-header__line"></div>
+            <div class="det-header__content">
+                <div class="det-header__content-item">Home</div>
+                <div class="det-header__content-item">About Us</div>
+                <div class="det-header__content-item">What we do</div>
+                <div class="det-header__content-item">Current Appeals</div>
+                <div class="det-header__content-item">Our Campaigns</div>
+                <div class="det-header__content-item">Media</div>
+                <div class="det-header__content-item">Home</div>
+                <div class="det-header__content-item">About Us</div>
+                <div class="det-header__content-item">What we do</div>
+                <div class="det-header__content-item">Current Appeals</div>
+                <div class="det-header__content-item">Our Campaigns</div>
+                <div class="det-header__content-item">Media</div>
+                <div class="det-header__content-item">Home</div>
+                <div class="det-header__content-item">About Us</div>
+                <div class="det-header__content-item">What we do</div>
+                <div class="det-header__content-item">Current Appeals</div>
+                <div class="det-header__content-item">Our Campaigns</div>
+                <div class="det-header__content-item">Media</div>
+            </div>
+        </div>
+    </section>
+
+    <header class="det-headers">
+        <div class="det-headers__banner">
+            <img src="./img/detail/banner-header.png" alt="img">
+            <div class="containers">
+                <h3>
+                    Tragedy and hospitality: 
+                    Daily life with refugees 
+                    from Tigray
+                </h3>
+            </div>
+        </div>
+    </header>
+
+    <section class="det-content">
+        <div class="containers">
+
+        </div>
+    </section>
+
+    <section class="det-message">
+        <div class="containers">
+            <div class="det-message__title">Comment</div>
+            <div class="det-message__block">
+                <div class="det-message__block-photo"></div>
+                <textarea class="det-message__block-textarea" placeholder="Write your comment in here"></textarea>
+                <button class="det-message__block-btn">Post Now</button>
+            </div>
+            <ul class="det-message__list">
+                <li class="det-message__list-item">
+                    <div class="det-message__list-item-photo"></div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    @@include('components/_footer.html')
+
+@@include('components/_script.html')
