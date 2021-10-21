@@ -15,7 +15,7 @@
 //! Header slider 
 
 
-var swiper = new Swiper(".mySwiper", {
+var indexHeaderSlider = new Swiper(".indexHeaderSlider", {
     navigation: {
         nextEl: ".ind-headers__slider .swiper-controls .swiper-button-next",
         prevEl: ".ind-headers__slider .swiper-controls .swiper-button-prev",
@@ -90,4 +90,12 @@ var indexPartnerSlider = new Swiper(".indexPartnerSlider", {
             spaceBetweenSlides: 30
         },
     }
+});
+
+
+$('.basket-open').on('click', function() {
+    $('.basket').toggleClass('display-n')
+});
+$('.basket-close').on('click', function() {
+    $('.basket').toggleClass('display-n')
 });

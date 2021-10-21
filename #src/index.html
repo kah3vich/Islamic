@@ -16,7 +16,7 @@
                         </select>
                     </div>
                     <div class="ind-header__nav-item">
-                        <div class="ind-header__nav-item-basket">
+                        <div class="ind-header__nav-item-basket basket-open">
                             @@include('iconsprite/index/basket.svg')
                             <div class="ind-header__nav-item-basket-count">1</div>
                         </div>
@@ -51,7 +51,7 @@
 
     <header class="ind-headers">
         <div class="ind-headers__slider">
-            <div class="swiper mySwiper">
+            <div class="swiper indexHeaderSlider">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="ind-headers__slider-item">
@@ -486,6 +486,8 @@
             </div>
         </div>
     </div>
+
+    @@include('components/_basket.html')
 
     @@include('components/_footer.html')
 
