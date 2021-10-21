@@ -1,0 +1,116 @@
+@media (max-width: 1420px) {
+    .ind-header__content {
+        margin: 25px 0 0 0;
+        display: grid;
+        grid-template-columns: repeat(9,1fr);
+        grid-template-rows: repeat(2,1fr);
+        width: 100%;
+        gap: 25px 10px;
+        grid-template-areas:
+            "itemHeaderContent-1 itemHeaderContent-2 itemHeaderContent-3 itemHeaderContent-4 itemHeaderContent-5 itemHeaderContent-6 itemHeaderContent-7 itemHeaderContent-8 itemHeaderContent-9"
+            "itemHeaderContent-10 itemHeaderContent-11 itemHeaderContent-12 itemHeaderContent-13 itemHeaderContent-14 itemHeaderContent-15 itemHeaderContent-16 itemHeaderContent-17 itemHeaderContent-18";
+    }
+}
+@media (max-width: 1410px) {
+    // .ind-last .containers {
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: flex-start;
+    //     justify-content: flex-start;
+    //     position: relative;
+    //     margin: 0 auto 60px auto;
+    // }
+    // .ind-last__add {
+    //     margin: 0;
+    // }
+    // .ind-last__banner-add {
+    //     position: absolute;
+    //     bottom: -80px;
+    // }
+    // .ind-last__banner {
+    //     margin: 0 0 195px 0;
+    // }
+    // .ind-last__banner-photo-btn {
+    //     position: absolute;
+    //     bottom: -255px;
+    // }
+
+    .ind-last__banner-photo {
+        width: 585px;
+        height: 444px;
+        position: relative;
+        margin: 49px 0 0 0;
+        -o-object-fit: cover;
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .ind-last__add {
+        width: 360px;
+        overflow: hidden;
+    }
+    .ind-politic__wrapper-list-item {
+        position: relative;
+        width: 100%;
+        height: 231px;
+    }
+}
+@media (max-width: 1400px) {
+    .ind-business__wrapper {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas: "indexBusinessItem-1" "indexBusinessItem-2" "indexBusinessItem-3";
+    }
+    .ind-business__wrapper-item:nth-child(1) {
+        width: 542px;
+        height: 320px;
+        position: relative;
+        grid-area: indexBusinessItem-1;
+        overflow: hidden;
+    }
+    .ind-business__wrapper {
+        width: 100%;
+    }
+    .ind-business__wrapper-item:nth-child(1) {
+        width: 100%;
+        overflow: hidden;
+        & img {
+            width: 100%;
+        }
+    }
+    .ind-business__wrapper-item:nth-child(2) {
+        width: 100%;
+        overflow: hidden;
+        & img {
+            width: 100%;
+        }
+    }
+    .ind-business__wrapper-item:nth-child(3) {
+        width: 100%;
+        overflow: hidden;
+        & img {
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 1350px) {
+    .ind-politic__wrapper-list {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .ind-politic__wrapper-list-item {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+    }
+    .ind-politic__wrapper-block-text {
+        margin: 0 0 0 75px;
+    }
+    .ind-politic__wrapper-block-text-title {
+        width: 100%;
+    }
+    .ind-politic__wrapper-block-text-item {
+        width: 100%;
+    }
+}

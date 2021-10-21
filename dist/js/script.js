@@ -99,3 +99,12 @@ $('.basket-open').on('click', function() {
 $('.basket-close').on('click', function() {
     $('.basket').toggleClass('display-n')
 });
+var cardElementSlider = new Swiper(".cardElementSlider", {
+    navigation: {
+        nextEl: ".card-headers__add-slider .swiper-controls .swiper-button-next",
+        prevEl: ".card-headers__add-slider .swiper-controls .swiper-button-prev",
+    },
+    keyboard: true,
+    slidesPerView: 4,
+    spaceBetweenSlides: 40,
+});
