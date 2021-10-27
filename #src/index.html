@@ -21,11 +21,13 @@
                             <div class="ind-header__nav-item-basket-count">1</div>
                         </div>
                         <div class="ind-header__nav-item-search">@@include('iconsprite/index/search.svg')</div>
+                        <div class="ind-header__nav-item-menu" id="menu-open">@@include('iconsprite/index/menu.svg')</div>
+                        <div class="ind-header__nav-item-close display-n" id="menu-close">@@include('iconsprite/index/close.svg')</div>
                     </div>
                 </ul>
             </div>
             <div class="ind-header__line"></div>
-            <div class="ind-header__content">
+            <div class="ind-header__content display-n" id="menu">
                 <div class="ind-header__content-item">Home</div>
                 <div class="ind-header__content-item">About Us</div>
                 <div class="ind-header__content-item">What we do</div>
@@ -183,48 +185,67 @@
         </div>
         <div class="ind-news__block">
             <div class="containers">
-                <div class="ind-news__block-item">
-                    <div class="ind-news__block-item-title">
-                        Just days ago I was sitting on the floor of my home in the 
+                <div class="ind-news__block-slider">
+                    <div class="swiper indexNewsSlider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="ind-news__block-item">
+                                    <div class="ind-news__block-item-title">
+                                        Just days ago I was sitting on the floor of my home in the 
+                                    </div>
+                                    <div class="ind-news__block-item-text">Gaza Strip, trying to work. The</div>
+                                    <div class="ind-news__block-item-add">roar of planes overhead didn’t stop for a second and</div>
+                                    <div class="ind-news__block-item-date">
+                                        <h3>March 14, 2022</h3>
+                                        <p>18:45</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="ind-news__block-item">
+                                    <div class="ind-news__block-item-title">
+                                        Just days ago I was sitting on the floor of my home in the 
+                                    </div>
+                                    <div class="ind-news__block-item-text">Gaza Strip, trying to work. The</div>
+                                    <div class="ind-news__block-item-add">roar of planes overhead didn’t stop for a second and</div>
+                                    <div class="ind-news__block-item-date">
+                                        <h3>March 14, 2022</h3>
+                                        <p>18:45</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="ind-news__block-item">
+                                    <div class="ind-news__block-item-title">
+                                        Just days ago I was sitting on the floor of my home in the 
+                                    </div>
+                                    <div class="ind-news__block-item-text">Gaza Strip, trying to work. The</div>
+                                    <div class="ind-news__block-item-add">roar of planes overhead didn’t stop for a second and</div>
+                                    <div class="ind-news__block-item-date">
+                                        <h3>March 14, 2022</h3>
+                                        <p>18:45</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="ind-news__block-item">
+                                    <div class="ind-news__block-item-title">
+                                        Just days ago I was sitting on the floor of my home in the 
+                                    </div>
+                                    <div class="ind-news__block-item-text">Gaza Strip, trying to work. The</div>
+                                    <div class="ind-news__block-item-add">roar of planes overhead didn’t stop for a second and</div>
+                                    <div class="ind-news__block-item-date">
+                                        <h3>March 14, 2022</h3>
+                                        <p>18:45</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
-                    <div class="ind-news__block-item-text">Gaza Strip, trying to work. The</div>
-                    <div class="ind-news__block-item-add">roar of planes overhead didn’t stop for a second and</div>
-                    <div class="ind-news__block-item-date">
-                        <h3>March 14, 2022</h3>
-                        <p>18:45</p>
-                    </div>
-                </div>
-                <div class="ind-news__block-item">
-                    <div class="ind-news__block-item-title">
-                        Just days ago I was sitting on the floor of my home in the 
-                    </div>
-                    <div class="ind-news__block-item-text">Gaza Strip, trying to work. The</div>
-                    <div class="ind-news__block-item-add">roar of planes overhead didn’t stop for a second and</div>
-                    <div class="ind-news__block-item-date">
-                        <h3>March 14, 2022</h3>
-                        <p>18:45</p>
-                    </div>
-                </div>
-                <div class="ind-news__block-item">
-                    <div class="ind-news__block-item-title">
-                        Just days ago I was sitting on the floor of my home in the 
-                    </div>
-                    <div class="ind-news__block-item-text">Gaza Strip, trying to work. The</div>
-                    <div class="ind-news__block-item-add">roar of planes overhead didn’t stop for a second and</div>
-                    <div class="ind-news__block-item-date">
-                        <h3>March 14, 2022</h3>
-                        <p>18:45</p>
-                    </div>
-                </div>
-                <div class="ind-news__block-item">
-                    <div class="ind-news__block-item-title">
-                        Just days ago I was sitting on the floor of my home in the 
-                    </div>
-                    <div class="ind-news__block-item-text">Gaza Strip, trying to work. The</div>
-                    <div class="ind-news__block-item-add">roar of planes overhead didn’t stop for a second and</div>
-                    <div class="ind-news__block-item-date">
-                        <h3>March 14, 2022</h3>
-                        <p>18:45</p>
+                    <div class="swiper-controls">
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
                     </div>
                 </div>
             </div>
@@ -240,24 +261,39 @@
                         On Sunday, August 15, the Taliban seized power in Afghanistan and announced that they were not going to share it with anyone. In just a day, life has changed: shops have closed, classes in universities have stopped, Afghans are en masse trying to leave the country. But almost 60 years ago, the development of Afghanistan took a very different path.
                     </div>
                     <ul class="ind-news__banner-list">
-                        <li class="ind-news__banner-list-item">
-                            <div class="ind-news__banner-item-line"></div>
-                            <div class="ind-news__banner-item-text">
-                                Just days ago I was sitting on the floor of my home in the 
+                        <div class="swiper indexFairBannerSlider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <li class="ind-news__banner-list-item">
+                                        <div class="ind-news__banner-item-line"></div>
+                                        <div class="ind-news__banner-item-text">
+                                            Just days ago I was sitting on the floor of my home in the 
+                                        </div>
+                                    </li>
+                                </div>
+                                <div class="swiper-slide">
+                                    <li class="ind-news__banner-list-item">
+                                        <div class="ind-news__banner-item-line"></div>
+                                        <div class="ind-news__banner-item-text">
+                                            Just days ago I was sitting on the floor of my home in the 
+                                        </div>
+                                    </li>
+                                </div>
+                                <div class="swiper-slide">
+                                    <li class="ind-news__banner-list-item">
+                                        <div class="ind-news__banner-item-line"></div>
+                                        <div class="ind-news__banner-item-text">
+                                            Just days ago I was sitting on the floor of my home in the 
+                                        </div>
+                                    </li>
+                                </div>
                             </div>
-                        </li>
-                        <li class="ind-news__banner-list-item">
-                            <div class="ind-news__banner-item-line"></div>
-                            <div class="ind-news__banner-item-text">
-                                Just days ago I was sitting on the floor of my home in the 
-                            </div>
-                        </li>
-                        <li class="ind-news__banner-list-item">
-                            <div class="ind-news__banner-item-line"></div>
-                            <div class="ind-news__banner-item-text">
-                                Just days ago I was sitting on the floor of my home in the 
-                            </div>
-                        </li>
+                            
+                        </div>
+                        <div class="swiper-controls">
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
                     </div>
                 </div>
             </div>

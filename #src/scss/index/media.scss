@@ -12,29 +12,6 @@
     }
 }
 @media (max-width: 1410px) {
-    // .ind-last .containers {
-    //     display: flex;
-    //     flex-direction: column;
-    //     align-items: flex-start;
-    //     justify-content: flex-start;
-    //     position: relative;
-    //     margin: 0 auto 60px auto;
-    // }
-    // .ind-last__add {
-    //     margin: 0;
-    // }
-    // .ind-last__banner-add {
-    //     position: absolute;
-    //     bottom: -80px;
-    // }
-    // .ind-last__banner {
-    //     margin: 0 0 195px 0;
-    // }
-    // .ind-last__banner-photo-btn {
-    //     position: absolute;
-    //     bottom: -255px;
-    // }
-
     .ind-last__banner-photo {
         width: 585px;
         height: 444px;
@@ -112,5 +89,83 @@
     }
     .ind-politic__wrapper-block-text-item {
         width: 100%;
+    }
+}
+@media (max-width: 1310px) {
+    .ind-header__content-item {
+        font-size: 11px;
+    }
+    .ind-header__content-item:nth-child(4) {
+        font-size: 11px;
+    }
+    .ind-header__content-item:nth-child(5) {
+        font-size: 11px;
+    }
+    .ind-header__content-item:nth-child(10) {
+        font-size: 11px;
+    }
+    .ind-header__content-item:nth-child(11) {
+        font-size: 11px;
+    }
+    .ind-header__content-item:nth-child(16) {
+        font-size: 11px;
+    }
+    .ind-header__content-item:nth-child(17) {
+        font-size: 11px;
+    }
+}
+@media (max-width: 1270px) {
+    .ind-business__slider {
+        & .swiper-slide {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .ind-last .containers {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .ind-last__add {
+        margin: 45px 0 90px 0;
+    }
+    .ind-last .containers {
+        position: relative;
+    }
+    .ind-last__banner-add {
+        position: absolute;
+        bottom: 0;
+        left: 165px;
+    }
+    .ind-last__banner {
+        width: 100%;
+    }
+    .ind-last__banner-photo {
+        width: 100%;
+        & img {
+            width: 100%;
+        }
+    }
+    .ind-last__banner-title {
+        width: 100%;
+    }
+    .ind-last__banner-text {
+        width: 100%;
+    }
+    .ind-last__add {
+        width: 100%;
+    }
+    .ind-last__add-text {
+        width: 100%;
+    }
+    .ind-last__add-texts {
+        width: 100%;
+    }
+    .ind-last__add-photo {
+        width: 100%;
+        & img {
+            width: 100%;
+        }
     }
 }
