@@ -163,6 +163,37 @@ $('#menu-close').on('click', function() {
     $('#menu-open').removeClass('display-n')
     $('#menu').addClass('display-n')
 });
+
+
+//! Custom selector header 
+
+$(function() {
+    $('#language').css('display', 'none')
+    $('#language').after('<div class="language-select-item"><div class="language-select-placeholder">english</div><div id="languageSelectorHeader" class="language-select-wrapper display-n"></div></div>')
+    let count = $('#language').children('option').length
+    for( let i = 0; i < count; i++) {
+        let arrows = $('#language').children('option').eq(i).val()
+        let newElementBlock = document.createElement("button");
+        newElementBlock.classList.add("language-select-element")
+        newElementBlock.id = `language-select-element-${i}`;
+        newElementBlock.innerHTML = `${arrows}`
+        document.getElementById("languageSelectorHeader").appendChild(newElementBlock);
+        $(`#language-select-element-${i}`).attr('value', `${arrows}`)
+    }
+    $('#language-select-element-0').css('display', 'none')
+    $('.language-select-item').on('click', function() {
+        $('.language-select-wrapper').toggleClass('display-n')
+        $('.language-select-item').toggleClass('language-select-item-active')
+    })
+    $(".language-select-element").on('click', function() {
+        let idElement = this.id
+        let valueElement = $(`#${idElement}`).val()
+        $('.language-select-placeholder').html(valueElement)
+        $('#language option:nth-child(1)').val(valueElement)
+        $('#language option:nth-child(1)').html(valueElement)
+    })
+})
+
 var cardElementSlider = new Swiper(".cardElementSlider", {
     navigation: {
         nextEl: ".card-headers__add-slider .swiper-controls .swiper-button-next",
