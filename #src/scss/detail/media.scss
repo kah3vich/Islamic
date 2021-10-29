@@ -1,0 +1,35 @@
+@media (max-width: 1400px) {
+    .det-content__add {
+        margin: 65px 0 0 30px;
+    }
+    .det-message__block {
+        width: 100%;
+    }
+    .det-message__block-textarea {
+        width: 90%;
+    }
+}
+@media (max-width: 1350px) {
+    .det-content__block-photo p {
+        bottom: -75px;
+        left: 0;
+    }
+}
+@media (max-width: 950px) {
+    .det-content__add {
+        display: none;
+    }
+    .det-headers__banner h3 {
+        left: 30px;
+        font-size: 32px;
+        width: 80%;
+    }
+    .det-message__list-item-messages {
+        width: 77%;
+    }
+}
+@media (max-width: 650px) {
+    .det-message__block-textarea {
+        width: 75%;
+    }
+}

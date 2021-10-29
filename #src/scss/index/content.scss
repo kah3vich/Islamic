@@ -597,6 +597,11 @@
             align-items: flex-start;
             justify-content: space-between;
             z-index: 10;
+            & .swiper-controls {
+                position: absolute;
+                bottom: 30px;
+                width: 100%;
+            }
             & .swiper-wrapper {
                 display: flex;
                 width: 866px;
@@ -609,6 +614,20 @@
                 align-items: center;
                 justify-content: center;
                 flex-direction: column;
+            }
+            & .swiper-button-next {
+                content: url(../svg/index/fair-arrow-next.svg);
+                right: 110px;
+                &::after {
+                    content: "";
+                }
+            }
+            & .swiper-button-prev {
+                content: url(../svg/index/fair-arrow-prev.svg);
+                left: 110px;
+                &::after {
+                    content: "";
+                }
             }
         }
         &-item {

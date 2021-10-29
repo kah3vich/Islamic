@@ -56,8 +56,12 @@ var indexBusinessSlider = new Swiper(".indexBusinessSlider", {
             slidesPerView: 3,
             spaceBetweenSlides: 0
         },
-        0: {
+        950: {
             slidesPerView: 2,
+            spaceBetweenSlides: 0
+        },
+        0: {
+            slidesPerView: 1,
             spaceBetweenSlides: 0
         },
     }
@@ -77,8 +81,16 @@ var indexBookSlider = new Swiper(".indexBookSlider", {
             slidesPerView: 4,
             spaceBetweenSlides: 30
         },
-        0: {
+        950: {
             slidesPerView: 3,
+            spaceBetweenSlides: 30
+        },
+        550: {
+            slidesPerView: 2,
+            spaceBetweenSlides: 30
+        },
+        0: {
+            slidesPerView: 1,
             spaceBetweenSlides: 30
         },
     }
@@ -97,8 +109,16 @@ var indexPartnerSlider = new Swiper(".indexPartnerSlider", {
             slidesPerView: 4,
             spaceBetweenSlides: 30
         },
-        0: {
+        950: {
             slidesPerView: 3,
+            spaceBetweenSlides: 30
+        },
+        600: {
+            slidesPerView: 2,
+            spaceBetweenSlides: 30
+        },
+        0: {
+            slidesPerView: 1,
             spaceBetweenSlides: 30
         },
     }
@@ -125,8 +145,16 @@ var indexNewsSlider = new Swiper(".indexNewsSlider", {
             slidesPerView: 4,
             spaceBetweenSlides: 15
         },
-        0: {
+        800: {
             slidesPerView: 3,
+            spaceBetweenSlides: 0
+        },
+        550: {
+            slidesPerView: 2,
+            spaceBetweenSlides: 0
+        },
+        0: {
+            slidesPerView: 1,
             spaceBetweenSlides: 0
         },
     }
@@ -143,8 +171,12 @@ var indexFairBannerSlider = new Swiper(".indexFairBannerSlider", {
             slidesPerView: 3,
             spaceBetweenSlides: 0
         },
-        0: {
+        650: {
             slidesPerView: 2,
+            spaceBetweenSlides: 0
+        },
+        0: {
+            slidesPerView: 1,
             spaceBetweenSlides: 0
         },
     }
@@ -154,14 +186,22 @@ var indexFairBannerSlider = new Swiper(".indexFairBannerSlider", {
 //! Menu 
 
 $('#menu-open').on('click', function() {
-    $(this).addClass('display-n')
-    $('#menu-close').removeClass('display-n')
-    $('#menu').removeClass('display-n')
+    if(window.innerWidth <= 1000) {
+
+    } else {
+        $(this).addClass('display-n')
+        $('#menu-close').removeClass('display-n')
+        $('#menu').removeClass('display-n')
+    }
 });
 $('#menu-close').on('click', function() {
-    $(this).addClass('display-n')
-    $('#menu-open').removeClass('display-n')
-    $('#menu').addClass('display-n')
+    if(window.innerWidth <= 1000) {
+
+    } else {
+        $(this).addClass('display-n')
+        $('#menu-open').removeClass('display-n')
+        $('#menu').addClass('display-n')
+    }
 });
 
 
