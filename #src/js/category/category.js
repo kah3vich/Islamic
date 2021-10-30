@@ -154,6 +154,7 @@ function changeSlide(id) {
             activeContentIndex = elementContentCount - 1
         }
     }
+    console.log(activeContentIndex)
     if(activeContentIndex == 0) {
         $('#categoryContentButton-1').addClass('cat-content__block-count-item-active')
         $('#categoryContentButton-1').removeClass('opacity-5')
