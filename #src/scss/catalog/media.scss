@@ -1,0 +1,30 @@
+@media (max-width: 1380px) {
+    .catl-headers__content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .catl-headers__content {
+        justify-items: center;
+    }
+}
+@media (max-width: 980px) {
+    .catl-headers__content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .catl-headers__nav-select {
+        width: 320px;
+    }
+}
+@media (max-width: 590px) {
+    .catl-headers__content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .catl-headers__nav-select {
+        width: 250px;
+    }
+}
+@media (max-width: 450px) {
+    .catl-headers__nav-select {
+        width: 220px;
+    }
+}
+
