@@ -95,16 +95,43 @@
 
     <header class="catl-headers">
         <div class="containers">
-            <div class="catl-headers__title">Catalog</div>
             <div class="catl-headers__nav">
-                <ul class="catl-headers__nav-select">
-                    <li class="catl-headers__nav-select-item">Text</li>
-                    <li class="catl-headers__nav-select-item">Text</li>
-                    <li class="catl-headers__nav-select-item">Text</li>
-                    <li class="catl-headers__nav-select-item">Text</li>
-                    <li class="catl-headers__nav-select-item">Text</li>
-                </ul>
-                <div class="catl-headers__nav-count">24 items</div>
+                <div class="catl-headers__nav-text-filter">
+                    <div class="catl-headers__nav-text-filter-block">
+                        <div class="catl-headers__nav-text-filter-title">Catalog</div>
+                        <div class="catl-headers__nav-text-filter-icon">
+                            <svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.16666 14.7002H12.8333V12.3669H8.16666V14.7002ZM0 0.700195V3.03353H21V0.700195H0ZM3.5 8.86686H17.5V6.53352H3.5V8.86686Z" fill="white"/>
+</svg>
+
+                        </div>
+                    </div>
+                    <div class="catl-headers__nav-text-filter-wrapper display-n">
+                        <ul class="catl-headers__nav-text-filter-list">
+                            <li class="catl-headers__nav-text-filter-item">
+                                <div class="catl-headers__nav-text-filter-checkbox">
+                                    <input class="catl-headers__nav-text-filter-checkbox__input" type="checkbox" id="checkbox_1">
+                                    <label class="catl-headers__nav-text-filter-checkbox__label" for="checkbox_1">По возрастанию</label>
+                                </div>
+                            </li>
+                            <li class="catl-headers__nav-text-filter-item">
+                                <div class="catl-headers__nav-text-filter-checkbox">
+                                    <input class="catl-headers__nav-text-filter-checkbox__input" type="checkbox" id="checkbox_2">
+                                    <label class="catl-headers__nav-text-filter-checkbox__label" for="checkbox_2">По убыванию цены</label>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="catl-headers__nav-text-filter-range">
+                            <div class="catl-headers__nav-text-filter-range-value-1">1690</div>
+                            <div class="catl-headers__nav-text-filter-range-value-2">16090</div>
+                            <input type="range" id="marchRange-1" value="1680" min="1680" max="16090" class="catl-headers__nav-text-filter-range-1">
+                            <input type="range" id="marchRange-2" value="16090" min="1680" max="16090" class="catl-headers__nav-text-filter-range-2">
+                            <div class="catl-headers__nav-text-filter-range-prev">от</div>
+                            <div class="catl-headers__nav-text-filter-range-next">до</div>
+                        </div>
+                        <div class="catl-headers__nav-text-filter-discard"><p>Сбросить</p></div>
+                    </div>
+                </div>
             </div>
             <div class="catl-headers__content">
                 <div class="catl-headers__content-item">
