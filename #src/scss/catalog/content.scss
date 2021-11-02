@@ -188,7 +188,7 @@
     position: relative;
     background: transparent;
     margin: 0 0 100px 0;
-    padding: 245px 0 0 0;
+    padding: 200px 0 0 0;
     & .containers {
         display: flex;
         flex-direction: column;
@@ -247,7 +247,7 @@
         width: 100%;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 0;
+        gap: 22px;
         margin: 40px 0 0 0;
         justify-items: self-end;
         &-item {
