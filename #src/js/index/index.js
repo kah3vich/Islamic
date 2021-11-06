@@ -186,8 +186,8 @@ var indexFairBannerSlider = new Swiper(".indexFairBannerSlider", {
 //! Menu 
 
 $('#menu-open').on('click', function() {
-    if(window.innerWidth <= 1000) {
-
+    if(window.innerWidth <= 1150) {
+        $('#menuMedia').removeClass('display-n')
     } else {
         $(this).addClass('display-n')
         $('#menu-close').removeClass('display-n')
@@ -195,14 +195,17 @@ $('#menu-open').on('click', function() {
     }
 });
 $('#menu-close').on('click', function() {
-    if(window.innerWidth <= 1000) {
-
+    if(window.innerWidth <= 1150) {
+        $('#menuMedia').addClass('display-n')
     } else {
         $(this).addClass('display-n')
         $('#menu-open').removeClass('display-n')
         $('#menu').addClass('display-n')
     }
 });
+$('#menu-close-media').on('click', function() {
+    $('#menuMedia').addClass('display-n')
+})
 
 
 //! Custom selector header 

@@ -23,6 +23,7 @@
 @import "category/style";
 @import "catalog/style";
 @import "card/style";
+@import "media";
 
 //! --------------------------------------------------------------------
 //! Переменные ---------------------------------------------------------
@@ -219,16 +220,23 @@ input[type="range" i] {
             ". itemHeaderContent-11 itemHeaderContent-12 itemHeaderContent-13 itemHeaderContent-14 itemHeaderContent-15 itemHeaderContent-16 itemHeaderContent-17 itemHeaderContent-18 ."
         ;
         &-item {
-            font-family: Roboto;
-            cursor: pointer;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 19px;
-            color: #000;
             display: flex;
             align-items: center;
             justify-content: center;
+            & a {
+                font-family: Roboto;
+                cursor: pointer;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+                color: #000;
+                transition: all 0.5s ease;
+                &:hover {
+                    color: gray;
+                    transition: all 0.5s ease;
+                }
+            }
             &:nth-child(1) {
                 grid-area: itemHeaderContent-1;
             }

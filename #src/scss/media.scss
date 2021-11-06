@@ -1,0 +1,190 @@
+@media (min-width: 1150px) {
+    .ind-header__media {
+        display: none;
+    }
+}
+@media (max-width: 1150px) {
+    .ind-header__content {
+        display: none;
+    }
+    .ind-header__media {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: #fff;
+        z-index: 100000;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 30px 23px 0 23px;
+        &-nav {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: space-between;
+            &-title {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 25px;
+                line-height: 29px;
+                text-transform: uppercase;
+                color: #000000;
+            }
+            &-icons {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 70px;
+                &-close {
+                    cursor: pointer;
+                }
+                &-basket {
+                    position: relative;
+                    cursor: pointer;
+                    &-count {
+                        width: 16px;
+                        height: 16px;
+                        background: #ADD4A9;
+                        border-radius: 50%;
+                        position: absolute;
+                        top: -8px;
+                        right: -8px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-family: Roboto;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 10px;
+                        line-height: 42px;
+                        text-align: center;
+                        color: #000000;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        &-table {
+            margin: 45px auto 0 0;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(6, 1fr);
+            grid-template-areas: 
+            "mediaHeaderMenuElement-1 mediaHeaderMenuElement-2 mediaHeaderMenuElement-3"
+            "mediaHeaderMenuElement-4 mediaHeaderMenuElement-5 mediaHeaderMenuElement-6"
+            "mediaHeaderMenuElement-7 mediaHeaderMenuElement-8 mediaHeaderMenuElement-9"
+            "mediaHeaderMenuElement-10 mediaHeaderMenuElement-11 mediaHeaderMenuElement-12"
+            "mediaHeaderMenuElement-13 mediaHeaderMenuElement-14 mediaHeaderMenuElement-15"
+            "mediaHeaderMenuElement-16 mediaHeaderMenuElement-17 mediaHeaderMenuElement-18"
+            ;
+            gap: 55px 90px;
+        }
+        &-item {
+            & a {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+                color: #313131;
+                transition: all 0.5s ease;
+                &:hover {
+                    color: gray;
+                    transition: all 0.5s ease;
+                }
+            }
+            &:nth-child(1) {
+                grid-area: mediaHeaderMenuElement-1;
+            }
+            &:nth-child(2) {
+                grid-area: mediaHeaderMenuElement-2;
+            }
+            &:nth-child(3) {
+                grid-area: mediaHeaderMenuElement-3;
+            }
+            &:nth-child(4) {
+                grid-area: mediaHeaderMenuElement-4;
+            }
+            &:nth-child(5) {
+                grid-area: mediaHeaderMenuElement-5;
+            }
+            &:nth-child(6) {
+                grid-area: mediaHeaderMenuElement-6;
+            }
+            &:nth-child(7) {
+                grid-area: mediaHeaderMenuElement-7;
+            }
+            &:nth-child(8) {
+                grid-area: mediaHeaderMenuElement-8;
+            }
+            &:nth-child(9) {
+                grid-area: mediaHeaderMenuElement-9;
+            }
+            &:nth-child(10) {
+                grid-area: mediaHeaderMenuElement-10;
+            }
+            &:nth-child(11) {
+                grid-area: mediaHeaderMenuElement-11;
+            }
+            &:nth-child(12) {
+                grid-area: mediaHeaderMenuElement-12;
+            }
+            &:nth-child(13) {
+                grid-area: mediaHeaderMenuElement-13;
+            }
+            &:nth-child(14) {
+                grid-area: mediaHeaderMenuElement-14;
+            }
+            &:nth-child(15) {
+                grid-area: mediaHeaderMenuElement-15;
+            }
+            &:nth-child(16) {
+                grid-area: mediaHeaderMenuElement-16;
+            }
+            &:nth-child(17) {
+                grid-area: mediaHeaderMenuElement-17;
+            }
+            &:nth-child(18) {
+                grid-area: mediaHeaderMenuElement-18;
+            }
+        }
+    }
+}
+@media (max-width: 600px) {
+    .ind-header__media {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: #fff;
+        z-index: 100000;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 30px 23px 0 23px;
+        &-table {
+            margin: 45px auto 0 0;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(9, 1fr);
+            grid-template-areas: 
+            "mediaHeaderMenuElement-1 mediaHeaderMenuElement-2"
+            "mediaHeaderMenuElement-3 mediaHeaderMenuElement-4"
+            "mediaHeaderMenuElement-5 mediaHeaderMenuElement-6"
+            "mediaHeaderMenuElement-7 mediaHeaderMenuElement-8"
+            "mediaHeaderMenuElement-9 mediaHeaderMenuElement-10"
+            "mediaHeaderMenuElement-11 mediaHeaderMenuElement-12"
+            "mediaHeaderMenuElement-13 mediaHeaderMenuElement-14"
+            "mediaHeaderMenuElement-15 mediaHeaderMenuElement-16"
+            "mediaHeaderMenuElement-17 mediaHeaderMenuElement-18"
+            ;
+            gap: 45px 80px;
+        }
+    }
+}

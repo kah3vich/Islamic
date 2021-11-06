@@ -114,16 +114,23 @@
             ". itemHeaderContent-11 itemHeaderContent-12 itemHeaderContent-13 itemHeaderContent-14 itemHeaderContent-15 itemHeaderContent-16 itemHeaderContent-17 itemHeaderContent-18 ."
         ;
         &-item {
-            font-family: Roboto;
-            cursor: pointer;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 19px;
-            color: #000;
             display: flex;
             align-items: center;
             justify-content: center;
+            & a {
+                font-family: Roboto;
+                cursor: pointer;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+                color: #000;
+                transition: all 0.5s ease;
+                &:hover {
+                    color: gray;
+                    transition: all 0.5s ease;
+                }
+            }
             &:nth-child(1) {
                 grid-area: itemHeaderContent-1;
             }
@@ -135,11 +142,15 @@
             }
             &:nth-child(4) {
                 grid-area: itemHeaderContent-4;
-                font-size: 14px;
+                & a {
+                    font-size: 14px;
+                }
             }
             &:nth-child(5) {
                 grid-area: itemHeaderContent-5;
-                font-size: 14px;
+                & a {
+                    font-size: 14px;
+                }
             }
             &:nth-child(6) {
                 grid-area: itemHeaderContent-6;
@@ -155,11 +166,15 @@
             }
             &:nth-child(10) {
                 grid-area: itemHeaderContent-10;
-                font-size: 14px;
+                & a {
+                    font-size: 14px;
+                }
             }
             &:nth-child(11) {
                 grid-area: itemHeaderContent-11;
-                font-size: 14px;
+                & a {
+                    font-size: 14px;
+                }
             }
             &:nth-child(12) {
                 grid-area: itemHeaderContent-12;
@@ -175,11 +190,15 @@
             }
             &:nth-child(16) {
                 grid-area: itemHeaderContent-16;
-                font-size: 14px;
+                & a {
+                    font-size: 14px;
+                }
             }
             &:nth-child(17) {
                 grid-area: itemHeaderContent-17;
-                font-size: 14px;
+                & a {
+                    font-size: 14px;
+                }
             }
             &:nth-child(18) {
                 grid-area: itemHeaderContent-18;
