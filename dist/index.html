@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
+<!-- dir="rtl" -->
 
     <section class="ind-header">
     <div class="containers">
@@ -33,13 +34,6 @@
                         <option value="english">english</option>
                         <option value="russia">russia</option>
                         <option value="english">english</option>
-                        <option value="russia">russia</option>
-                        <option value="english">english</option>
-                        <option value="russia">russia</option>
-                        <option value="english">english</option>
-                        <option value="russia">russia</option>
-                        <option value="english">english</option>
-                        <option value="russia">russia</option>
                     </select>
                 </div>
                 <div class="ind-header__nav-item">
@@ -52,6 +46,10 @@
                     </div>
                     <div class="ind-header__nav-item-search"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M16.4572 15.4843L12.4111 11.2762C13.4514 10.0396 14.0214 8.48359 14.0214 6.86374C14.0214 3.07913 10.9423 0 7.15769 0C3.37308 0 0.293945 3.07913 0.293945 6.86374C0.293945 10.6484 3.37308 13.7275 7.15769 13.7275C8.57848 13.7275 9.93243 13.299 11.09 12.4854L15.1668 16.7255C15.3372 16.9024 15.5664 17 15.812 17C16.0444 17 16.265 16.9114 16.4324 16.7502C16.7881 16.4079 16.7995 15.8403 16.4572 15.4843ZM7.15769 1.79054C9.95511 1.79054 12.2309 4.06632 12.2309 6.86374C12.2309 9.66117 9.95511 11.9369 7.15769 11.9369C4.36027 11.9369 2.08449 9.66117 2.08449 6.86374C2.08449 4.06632 4.36027 1.79054 7.15769 1.79054Z" fill="#5EA956"/>
+</svg>
+</div>
+                    <div class="ind-header__nav-item-client" id="client-open"><svg width="18" height="18" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M27.6203 19.0437C26.6261 18.17 25.4203 17.4152 24.0363 16.8002C23.4446 16.5374 22.7522 16.8038 22.4895 17.3952C22.2267 17.9867 22.4931 18.679 23.0846 18.942C24.2516 19.4607 25.2573 20.0871 26.0733 20.8042C27.0792 21.6882 27.6562 22.9681 27.6562 24.3164V26.4844C27.6562 27.1305 27.1305 27.6562 26.4844 27.6562H3.51562C2.86949 27.6562 2.34375 27.1305 2.34375 26.4844V24.3164C2.34375 22.9681 2.92076 21.6882 3.9267 20.8042C5.1107 19.7637 8.56041 17.3438 15 17.3438C19.7816 17.3438 23.6719 13.4534 23.6719 8.67188C23.6719 3.8903 19.7816 0 15 0C10.2184 0 6.32812 3.8903 6.32812 8.67188C6.32812 11.4672 7.65793 13.9574 9.71786 15.5443C5.94864 16.3728 3.60397 17.9677 2.37968 19.0437C0.867462 20.3723 0 22.294 0 24.3164V26.4844C0 28.423 1.577 30 3.51562 30H26.4844C28.423 30 30 28.423 30 26.4844V24.3164C30 22.294 29.1325 20.3723 27.6203 19.0437ZM8.67188 8.67188C8.67188 5.18257 11.5107 2.34375 15 2.34375C18.4893 2.34375 21.3281 5.18257 21.3281 8.67188C21.3281 12.1612 18.4893 15 15 15C11.5107 15 8.67188 12.1612 8.67188 8.67188Z" fill="black"/>
 </svg>
 </div>
                     <div class="ind-header__nav-item-menu" id="menu-open"><svg width="34" height="20" viewBox="0 0 34 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -618,41 +616,61 @@
 </div>
     </div>
     <div class="basket__line"></div>
-    <div class="basket__item">
-        <div class="basket__item-photo"></div>
-        <div class="basket__item-count">
-            <div class="basket__item-count-title">New story</div>
-            <div class="basket__item-count-block">
-                <div class="basket__item-count-block-minus"><svg width="12" height="3" viewBox="0 0 12 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <div class="basket__lists">
+        <div class="basket__item">
+            <div class="basket__item-photo"></div>
+            <div class="basket__item-count">
+                <div class="basket__item-count-title">New story</div>
+                <div class="basket__item-count-block">
+                    <div class="basket__item-count-block-minus"><svg width="12" height="3" viewBox="0 0 12 3" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="0.37196" y="2.3999" width="1.8" height="10.8411" rx="0.9" transform="rotate(-90 0.37196 2.3999)" fill="black"/>
 </svg>
 </div>
-                <div class="basket__item-count-block-sum">N</div>
-                <div class="basket__item-count-block-plus"><svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div class="basket__item-count-block-sum">N</div>
+                    <div class="basket__item-count-block-plus"><svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M5.77383 12.125C6.25282 12.125 6.64112 11.7367 6.64112 11.2577V7.31818H10.3762C10.8281 7.31818 11.1944 6.95187 11.1944 6.5C11.1944 6.04813 10.8281 5.68182 10.3762 5.68182H6.64112V1.74229C6.64112 1.2633 6.25282 0.875 5.77383 0.875C5.29484 0.875 4.90654 1.2633 4.90654 1.74229V5.68182H1.17145C0.71958 5.68182 0.353268 6.04813 0.353268 6.5C0.353268 6.95187 0.71958 7.31818 1.17145 7.31818H4.90654V11.2577C4.90654 11.7367 5.29484 12.125 5.77383 12.125Z" fill="black"/>
 </svg>
 </div>
+                </div>
             </div>
+            <div class="basket__item-price">1460$</div>
         </div>
-        <div class="basket__item-price">1460$</div>
-    </div>
-    <div class="basket__item">
-        <div class="basket__item-photo"></div>
-        <div class="basket__item-count">
-            <div class="basket__item-count-title">New story</div>
-            <div class="basket__item-count-block">
-                <div class="basket__item-count-block-minus"><svg width="12" height="3" viewBox="0 0 12 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div class="basket__item">
+            <div class="basket__item-photo"></div>
+            <div class="basket__item-count">
+                <div class="basket__item-count-title">New story</div>
+                <div class="basket__item-count-block">
+                    <div class="basket__item-count-block-minus"><svg width="12" height="3" viewBox="0 0 12 3" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="0.37196" y="2.3999" width="1.8" height="10.8411" rx="0.9" transform="rotate(-90 0.37196 2.3999)" fill="black"/>
 </svg>
 </div>
-                <div class="basket__item-count-block-sum">N</div>
-                <div class="basket__item-count-block-plus"><svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <div class="basket__item-count-block-sum">N</div>
+                    <div class="basket__item-count-block-plus"><svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M5.77383 12.125C6.25282 12.125 6.64112 11.7367 6.64112 11.2577V7.31818H10.3762C10.8281 7.31818 11.1944 6.95187 11.1944 6.5C11.1944 6.04813 10.8281 5.68182 10.3762 5.68182H6.64112V1.74229C6.64112 1.2633 6.25282 0.875 5.77383 0.875C5.29484 0.875 4.90654 1.2633 4.90654 1.74229V5.68182H1.17145C0.71958 5.68182 0.353268 6.04813 0.353268 6.5C0.353268 6.95187 0.71958 7.31818 1.17145 7.31818H4.90654V11.2577C4.90654 11.7367 5.29484 12.125 5.77383 12.125Z" fill="black"/>
 </svg>
 </div>
+                </div>
             </div>
+            <div class="basket__item-price">1460$</div>
         </div>
-        <div class="basket__item-price">1460$</div>
+        <div class="basket__item">
+            <div class="basket__item-photo"></div>
+            <div class="basket__item-count">
+                <div class="basket__item-count-title">New story</div>
+                <div class="basket__item-count-block">
+                    <div class="basket__item-count-block-minus"><svg width="12" height="3" viewBox="0 0 12 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.37196" y="2.3999" width="1.8" height="10.8411" rx="0.9" transform="rotate(-90 0.37196 2.3999)" fill="black"/>
+</svg>
+</div>
+                    <div class="basket__item-count-block-sum">N</div>
+                    <div class="basket__item-count-block-plus"><svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M5.77383 12.125C6.25282 12.125 6.64112 11.7367 6.64112 11.2577V7.31818H10.3762C10.8281 7.31818 11.1944 6.95187 11.1944 6.5C11.1944 6.04813 10.8281 5.68182 10.3762 5.68182H6.64112V1.74229C6.64112 1.2633 6.25282 0.875 5.77383 0.875C5.29484 0.875 4.90654 1.2633 4.90654 1.74229V5.68182H1.17145C0.71958 5.68182 0.353268 6.04813 0.353268 6.5C0.353268 6.95187 0.71958 7.31818 1.17145 7.31818H4.90654V11.2577C4.90654 11.7367 5.29484 12.125 5.77383 12.125Z" fill="black"/>
+</svg>
+</div>
+                </div>
+            </div>
+            <div class="basket__item-price">1460$</div>
+        </div>
     </div>
     <div class="basket__line"></div>
     <div class="basket__prise">
@@ -727,6 +745,96 @@
         </div>
     </div>
 </footer>
+
+    <div class="modelLogin display-n">
+    <div class="modelLogin__entry display-n">
+        <div class="modelLogin__entry-close">
+            <svg width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.3282 22.3295L40.2736 40.2749" stroke="#ADD4A9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.1312 40.4727L40.471 22.1329" stroke="#ADD4A9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+        </div>
+        <div class="modelLogin__entry-title">Войти</div>
+        <div class="modelLogin__entry-email">
+            <input type="text" placeholder="E-mail">
+        </div>
+        <div class="modelLogin__entry-password">
+            <input type="text" placeholder="Ваш пароль">
+        </div>
+        <button class="modelLogin__entry-btn">Войти</button>
+        <div class="modelLogin__entry-link">Забыли пароль ?</div>
+        <div class="modelLogin__entry-reg">
+            <p>Нет учетной записи ?</p>
+            <span>Зарегистрироваться</span>
+        </div>
+    </div>
+    <div class="modelLogin__reg display-n">
+        <div class="modelLogin__reg-close">
+            <svg width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.3282 22.3295L40.2736 40.2749" stroke="#ADD4A9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.1312 40.4727L40.471 22.1329" stroke="#ADD4A9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+        </div>
+        <div class="modelLogin__reg-title">Зарегистрироваться</div>
+        <div class="modelLogin__reg-email">
+            <input type="text" placeholder="E-mail">
+        </div>
+        <div class="modelLogin__reg-password">
+            <input type="text" placeholder="Ваш пароль">
+        </div>
+        <div class="modelLogin__reg-passwords">
+            <input type="text" placeholder="Ваш пароль">
+        </div>
+        <button class="modelLogin__reg-btn">Зарегистрироваться</button>
+        <div class="modelLogin__reg-link">Забыли пароль ?</div>
+        <div class="modelLogin__reg-reg">
+            <p>Есть учетной записи ?</p>
+            <span>Войти</span>
+        </div>
+    </div>
+    <div class="modelLogin__regs display-n">
+        <div class="modelLogin__regs-close">
+            <svg width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.3282 22.3295L40.2736 40.2749" stroke="#ADD4A9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.1312 40.4727L40.471 22.1329" stroke="#ADD4A9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+        </div>
+        <div class="modelLogin__regs-title">Вы успешно зарегистрировались</div>
+    </div>
+    <div class="modelLogin__recovery display-n">
+        <div class="modelLogin__recovery-close">
+            <svg width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.3282 22.3295L40.2736 40.2749" stroke="#ADD4A9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.1312 40.4727L40.471 22.1329" stroke="#ADD4A9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+        </div>
+        <div class="modelLogin__recovery-title">Восстановление пароля</div>
+        <div class="modelLogin__recovery-email">
+            <input type="text" placeholder="E-mail">
+        </div>
+        <div class="modelLogin__recovery-error display-n">Пользователь с таким email не найден</div>
+        <button class="modelLogin__recovery-btn">Сбросить пароль</button>
+        <div class="modelLogin__recovery-link">Забыли пароль ?</div>
+        <div class="modelLogin__recovery-reg">
+            <p>Есть учетной записи ?</p>
+            <span>Войти</span>
+        </div>
+    </div>
+    <div class="modelLogin__recoverys display-n">
+        <div class="modelLogin__recoverys-close">
+            <svg width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M22.3282 22.3295L40.2736 40.2749" stroke="#ADD4A9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.1312 40.4727L40.471 22.1329" stroke="#ADD4A9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+        </div>
+        <div class="modelLogin__recoverys-title">Информация о восстановление отправлена на email</div>
+    </div>
+</div>
 
 <script src="js/script.min.js"></script>
 </body>

@@ -278,8 +278,7 @@
                 border-radius: 0px 0px 0px 4px;
                 display: flex;
                 align-items: center;
-                justify-content: flex-start;
-                padding: 0 0 0 24px;
+                justify-content: center;
                 &::after {
                     content: url(../svg/category/last-arrow-next.svg);
                     position: absolute;
@@ -304,14 +303,12 @@
             width: 355px;
             height: 100%;
             &-photo {
-                width: 355px;
+                width: 100%;
                 height: 163px;
                 border-radius: 4px;
                 position: relative;
+                overflow: hidden;
                 & img {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
                     width: 100%;
                     height: 100%;
                     object-fit: cover;
@@ -350,7 +347,7 @@
                 color: #1A242D;
             }
             &-btn {
-                margin: 18px 0 0 0;
+                margin: 18px 25px 0 0;
                 position: relative;
                 background: transparent;
                 cursor: pointer;
@@ -379,14 +376,12 @@
             height: 100%;
             margin: 25px 0 0 0;
             &-photo {
-                width: 355px;
+                width: 100%;
                 height: 163px;
                 border-radius: 4px;
                 position: relative;
+                overflow: hidden;
                 & img {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
                     width: 100%;
                     height: 100%;
                     object-fit: cover;
@@ -425,7 +420,7 @@
                 color: #1A242D;
             }
             &-btn {
-                margin: 18px 0 0 0;
+                margin: 18px 25px 0 0;
                 position: relative;
                 background: transparent;
                 cursor: pointer;
@@ -489,14 +484,14 @@
             align-items: flex-start;
             justify-content: flex-start;
             &-photo {
-                width: 364px;
+                width: 100%;
                 height: 364px;
                 position: relative;
+                overflow: hidden;
                 & img {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
                     object-fit: cover;
+                    width: 100%;
+                    height: 100%;
                 }
             }
             &-date {
@@ -553,7 +548,7 @@
                 color: #242424;
             }
             &-btn {
-                margin: 40px 0 0 0;
+                margin: 40px 25px 0 0;
                 font-family: Roboto;
                 font-style: normal;
                 font-weight: bold;
@@ -630,7 +625,7 @@
     }
     &__add {
         display: flex;
-        margin: 26px 0 0 auto;
+        margin: 26px 0 0 0;
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
@@ -678,7 +673,7 @@
                         color: #FFFFFF;
                     }
                     & p {
-                        margin: 0 0 0 14px;
+                        margin: 0 14px 0 14px;
                         font-family: Roboto;
                         font-style: normal;
                         font-weight: normal;
@@ -688,7 +683,6 @@
                     }
                 }
                 &-text {
-                    height: 54px;
                     font-family: Roboto;
                     font-style: normal;
                     font-weight: normal;
@@ -719,14 +713,14 @@
                 align-items: center;
                 justify-content: flex-start;
                 margin: 0 0 8px 0;
-                padding: 0 0 0 17px;
+                padding: 0 0 0 0;
                 &-line {
                     width: 0;
                     height: 36px;
                     border-left: 1px solid #C1C1C1;
                 }
                 & svg {
-                    margin: 0 15px 0 0;
+                    margin: 0 15px 0 15px;
                 }
                 &-text {
                     font-family: Roboto;
@@ -735,7 +729,7 @@
                     font-size: 11px;
                     line-height: 42px;
                     color: #000000;
-                    margin: 0 0 27px 20px;
+                    margin: 0 10px 27px 20px;
                     & p {
                         height: 13px;
                     }
@@ -793,7 +787,7 @@
                 flex-direction: column;
                 align-items: flex-start;
                 justify-content: flex-start;
-                margin:  0 0 0 13px;
+                margin:  0 13px 0 13px;
                 &-date {
                     display: flex;
                     align-items: flex-start;

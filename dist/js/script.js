@@ -188,6 +188,7 @@ var indexFairBannerSlider = new Swiper(".indexFairBannerSlider", {
 $('#menu-open').on('click', function() {
     if(window.innerWidth <= 1150) {
         $('#menuMedia').removeClass('display-n')
+        $('body').css('overflow','hidden')
     } else {
         $(this).addClass('display-n')
         $('#menu-close').removeClass('display-n')
@@ -205,6 +206,7 @@ $('#menu-close').on('click', function() {
 });
 $('#menu-close-media').on('click', function() {
     $('#menuMedia').addClass('display-n')
+    $('body').css('overflow','visible')
 })
 
 
@@ -237,6 +239,122 @@ $(function() {
     })
 })
 
+
+//! Login Client
+
+
+$('#client-open').on('click', function() {
+    $('.modelLogin').removeClass('display-n')
+    $('.modelLogin__entry').removeClass('display-n')
+    $('body').css('overflow','hidden')
+})
+
+
+
+
+$('.modelLogin__entry-btn').on('click', function() {
+    if (($('.modelLogin__entry-email input').val()) == '') {
+        $('.modelLogin__entry-email').css('border', '1px solid #FF0000')
+    } else {
+        $('.modelLogin__entry-email').css('border', '1px solid #ADD4A9')
+    }
+    if (($('.modelLogin__entry-password input').val()) == '') {
+        $('.modelLogin__entry-password').css('border', '1px solid #FF0000')
+    } else {
+        $('.modelLogin__entry-password').css('border', '1px solid #ADD4A9')
+    }
+});
+
+$('.modelLogin__reg-btn').on('click', function() {
+    if (($('.modelLogin__reg-email input').val()) == '') {
+        $('.modelLogin__reg-email').css('border', '1px solid #FF0000')
+    } else {
+        $('.modelLogin__reg-email').css('border', '1px solid #ADD4A9')
+    }
+    if (($('.modelLogin__reg-password input').val()) == '') {
+        $('.modelLogin__reg-password').css('border', '1px solid #FF0000')
+    } else {
+        $('.modelLogin__reg-password').css('border', '1px solid #ADD4A9')
+    }
+    if (($('.modelLogin__reg-passwords input').val()) == '') {
+        $('.modelLogin__reg-passwords').css('border', '1px solid #FF0000')
+    } else {
+        $('.modelLogin__reg-passwords').css('border', '1px solid #ADD4A9')
+    }
+    if (($('.modelLogin__reg-passwords input').val() != '') && ($('.modelLogin__reg-password input').val() != '') && ($('.modelLogin__reg-email input').val() != '')) {
+        $('.modelLogin__regs').removeClass('display-n')
+        $('.modelLogin__reg').addClass('display-n')
+    }
+});
+
+
+$('.modelLogin__recovery-btn').on('click', function() {
+    if (($('.modelLogin__recovery-email input').val()) == '') {
+        $('.modelLogin__recovery-email').css('border', '1px solid #FF0000')
+        $('.modelLogin__recovery-error').removeClass('display-n')
+    } else {
+        $('.modelLogin__recovery-email').css('border', '1px solid #ADD4A9')
+        $('.modelLogin__recovery-error').addClass('display-n')
+        $('.modelLogin__recoverys').removeClass('display-n')
+        $('.modelLogin__recovery').addClass('display-n')
+    }
+});
+
+$('.modelLogin__regs-close').on('click', function() {
+    $('.modelLogin__entry').removeClass('display-n')
+    $('.modelLogin__regs').addClass('display-n')
+});
+
+
+$('.modelLogin__entry-reg span').on('click', function() {
+    $('.modelLogin__entry').addClass('display-n')
+    $('.modelLogin__reg').removeClass('display-n')
+});
+
+$('.modelLogin__reg-reg span').on('click', function() {
+    $('.modelLogin__reg').addClass('display-n')
+    $('.modelLogin__entry').removeClass('display-n')
+});
+
+$('.modelLogin__reg-link').on('click', function() {
+    $('.modelLogin__reg').addClass('display-n')
+    $('.modelLogin__recovery').removeClass('display-n')
+});
+$('.modelLogin__entry-link').on('click', function() {
+    $('.modelLogin__entry').addClass('display-n')
+    $('.modelLogin__recovery').removeClass('display-n')
+});
+
+
+$('.modelLogin__recovery-close').on('click', function() {
+    $('.modelLogin__entry').removeClass('display-n')
+    $('.modelLogin__recovery').addClass('display-n')
+});
+
+
+$('.modelLogin__recoverys-close').on('click', function() {
+    $('.modelLogin__entry').removeClass('display-n')
+    $('.modelLogin__recoverys').addClass('display-n')
+});
+
+
+$('.modelLogin__reg-close').on('click', function() {
+    $('.modelLogin__entry').addClass('display-n')
+    $('.modelLogin__reg').addClass('display-n')
+    $('.modelLogin').addClass('display-n')
+    $('body').css('overflow','visible')
+});
+$('.modelLogin__entry-close').on('click', function() {
+    $('.modelLogin__entry').addClass('display-n')
+    $('.modelLogin__reg').addClass('display-n')
+    $('.modelLogin').addClass('display-n')
+    $('body').css('overflow','visible')
+});
+
+$('.modelLogin__recovery-reg span').on('click', function() {
+    $('.modelLogin__entry').removeClass('display-n')
+    $('.modelLogin__recovery').addClass('display-n')
+});
 var cardElementSlider = new Swiper(".cardElementSlider", {
     navigation: {
         nextEl: ".card-headers__add-slider .swiper-controls .swiper-button-next",

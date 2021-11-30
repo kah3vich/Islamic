@@ -39,7 +39,6 @@
     }
     .ind-business__wrapper-item:nth-child(1) {
         width: 542px;
-        height: 320px;
         position: relative;
         grid-area: indexBusinessItem-1;
         overflow: hidden;
@@ -259,6 +258,9 @@
     }
     .ind-header__nav-logo {
         left: 85px;
+        position: static;
+        transform: none;
+        width: 130%;
         font-family: Roboto;
         font-style: normal;
         font-weight: 400;
@@ -352,6 +354,27 @@
     .ind-news__banner-wrapper {
         height: 700px;
     }
+    .ind-business .containers {
+        padding: 0;
+    }
+    .ind-business__wrapper {
+        padding: 0 30px;
+    }
+    .ind-business__slider-item {
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    .ind-business__slider .swiper-button-next {
+        right: 18px;
+        top: -70px;
+        background: #fff;
+    }
+    .ind-business__slider .swiper-button-prev {
+        left: 18px;
+        top: -70px;
+        background: #fff;
+    }
 }
 @media (max-width: 550px) {
     .ind-news__banner .containers {
@@ -364,6 +387,9 @@
     .basket__prise,
     .basket__item {
         width: 100%;
+    }
+    .ind-header__nav-item-menu {
+        margin: 0 0 0 30px;
     }
 }
 @media (max-width: 500px) {
@@ -424,6 +450,12 @@
         height: 755px;
     }
     .ind-header__nav-item-search {
+        display: none;
+    }
+    .ind-partner {
+        padding: 55px 0 0 0;
+    }
+    .language-select-item {
         display: none;
     }
 }

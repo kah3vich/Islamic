@@ -1,0 +1,28 @@
+@@include('components/_head.html')
+
+    @@include('components/_header.html')
+
+    <section class="error">
+        <div class="containers">
+            <div class="error__block"> 
+                <div class="error__block-text">
+                    <div class="error__block-text-title">
+                        Ошибка 404
+                    </div>
+                    <div class="error__block-text-description">
+                        Кажеться что -то пошло не так! Страница, которую вы запрашиваете, не существует. Возможно она устарела, была удалена, или был введен неверный адрес в адресную строке.
+                    </div>
+                </div>
+                <div class="error__block-photo">
+                    @@include('iconsprite/404.svg')
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @@include('components/_basket.html')
+
+    @@include('components/_modelLogin.html')
+
+
+@@include('components/_script.html')
