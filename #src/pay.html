@@ -1,0 +1,153 @@
+@@include('components/_head.html')
+
+    @@include('components/_header.html')
+
+    <section class="pay">
+        <div class="containers">
+            <div class="pay__title">
+                <p>Home</p>
+                @@include('iconsprite/pay-arrow.svg')
+                <span>Payment</span>
+            </div>
+            <div class="pay__block">
+                <div class="pay__block-info">
+                    <div class="pay__block-info-type">
+                        <div class="pay__block-info-type-items">
+                            <div class="pay__block-info-type-count">1</div>
+                            <div class="pay__block-info-type-title">Contacts</div>
+                        </div>
+                        <div class="pay__block-info-type-line"></div>
+                        <div class="pay__block-info-type-items pay__block-info-type-items-2">
+                            <div class="pay__block-info-type-count">2</div>
+                            <div class="pay__block-info-type-title">Shipping</div>
+                        </div>
+                        <div class="pay__block-info-type-line pay__block-info-type-line-2"></div>
+                        <div class="pay__block-info-type-items pay__block-info-type-items-3">
+                            <div class="pay__block-info-type-count">3</div>
+                            <div class="pay__block-info-type-title">Payment</div>
+                        </div>
+                    </div>
+                    <div class="pay__block-info-method">
+                        <div class="pay__block-info-method-title">Delivery method</div>
+                        <div class="pay__block-info-method-type">
+                            <div class="pay__block-info-method-items" id="payMethodItems-1">
+                                <div class="pay__block-info-method-items-circle"></div>
+                                <div class="pay__block-info-method-items-text">
+                                    <h3>Title</h3>
+                                    <p>Description</p>
+                                </div>
+                                <div class="pay__block-info-method-items-price">Price</div>
+                            </div>
+                            <div class="pay__block-info-method-items pay__block-info-method-items-active" id="payMethodItems-2">
+                                <div class="pay__block-info-method-items-circle pay__block-info-method-items-circle-active"></div>
+                                <div class="pay__block-info-method-items-text">
+                                    <h3>Title</h3>
+                                    <p>Description</p>
+                                </div>
+                                <div class="pay__block-info-method-items-price">Price</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pay__block-info-address">
+                        <div class="pay__block-info-address-title">Delivery address</div>
+                        <div class="pay__block-info-address-type">
+                            <div class="pay__block-info-address-items">text</div>
+                            <div class="pay__block-info-address-items">text</div>
+                        </div>
+                    </div>
+                    <div class="pay__block-info-date">
+                        <div class="pay__block-info-date-title">Date & time</div>
+                        <div class="pay__block-info-date-type">
+                            <div class="pay__block-info-date-items">text</div>
+                            <div class="pay__block-info-date-items">text</div>
+                        </div>
+                    </div>
+                    <div class="pay__block-info-line"></div>
+                    <div class="pay__block-info-btns">
+                        <button class="pay__block-info-back">
+                            @@include('iconsprite/pay-back.svg')
+                            <p>Back step</p>
+                        </button>
+                        <button class="pay__block-info-btn">
+                            <p>Payment</p>
+                            @@include('iconsprite/pay-btn.svg')
+                        </button>
+                    </div>
+                </div>
+                <div class="pay__block-card">
+                    <div class="pay__block-card-title">
+                        <h3>Order total (N)</h3>
+                        <p>Edit</p>
+                    </div>
+                    <div class="pay__block-card-list">
+                        <div class="pay__block-card-items">
+                            <div class="pay__block-card-items-photo"></div>
+                            <div class="pay__block-card-items-name">
+                                <h3>Name</h3>
+                                <div class="pay__block-card-items-name-count">
+                                    <div class="pay__block-card-items-name-count-minus">
+                                        @@include('iconsprite/pay-minus.svg')
+                                    </div>
+                                    <div class="pay__block-card-items-name-count-sum">N</div>
+                                    <div class="pay__block-card-items-name-count-plus">
+                                        @@include('iconsprite/pay-plus.svg')
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pay__block-card-items-price">price</div>
+                        </div>
+                        <div class="pay__block-card-items">
+                            <div class="pay__block-card-items-photo"></div>
+                            <div class="pay__block-card-items-name">
+                                <h3>Name</h3>
+                                <div class="pay__block-card-items-name-count">
+                                    <div class="pay__block-card-items-name-count-minus">
+                                        @@include('iconsprite/pay-minus.svg')
+                                    </div>
+                                    <div class="pay__block-card-items-name-count-sum">N</div>
+                                    <div class="pay__block-card-items-name-count-plus">
+                                        @@include('iconsprite/pay-plus.svg')
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pay__block-card-items-price">price</div>
+                        </div>
+                        <div class="pay__block-card-items">
+                            <div class="pay__block-card-items-photo"></div>
+                            <div class="pay__block-card-items-name">
+                                <h3>Name</h3>
+                                <div class="pay__block-card-items-name-count">
+                                    <div class="pay__block-card-items-name-count-minus">
+                                        @@include('iconsprite/pay-minus.svg')
+                                    </div>
+                                    <div class="pay__block-card-items-name-count-sum">N</div>
+                                    <div class="pay__block-card-items-name-count-plus">
+                                        @@include('iconsprite/pay-plus.svg')
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pay__block-card-items-price">price</div>
+                        </div>
+                    </div>
+                    <div class="pay__block-card-line"></div>
+                    <div class="pay__block-card-price">
+                        <h3>Text</h3>
+                        <p>price</p>
+                    </div>
+                    <div class="pay__block-card-line"></div>
+                    <div class="pay__block-card-price">
+                        <h3>Text</h3>
+                        <p>price</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @@include('components/_basket.html')
+
+    @@include('components/_footer.html')
+
+    @@include('components/_modelLogin.html')
+
+@@include('components/_script.html')

@@ -1,0 +1,72 @@
+@media (max-width: 1300px) {
+    .pay__block {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 0 0 100px 0;
+    }
+    .pay__block-info {
+        margin: 50px 0 0 0;
+    }
+    .pay__block-info-type-line {
+        width: 37px;
+    }
+    .pay__block-card {
+        margin: 50px 0 0 0;
+    }
+}
+@media (max-width: 510px) {
+    .pay__block-card {
+        width: 100%;
+        padding: 20px;
+    }
+    .pay__block-info-type-line {
+        width: 10px;
+        margin: 0 10px;
+    }
+    .pay__block-info-method {
+        width: 100%;
+    }
+    .pay__block-info-method-type {
+        width: 100%;
+    }
+    .pay__block-info-method-items {
+        width: 100%;
+    }
+    .pay__block-info {
+        width: 100%;
+    }
+    .pay__block-info-address {
+        width: 100%;
+    }
+    .pay__block-info-address-type {
+        width: 100%;
+    }
+    .pay__block-info-address-items {
+        width: 100%;
+    }
+    .pay__block-info-date {
+        width: 100%;
+    }
+    .pay__block-info-date-type {
+        width: 100%;
+    }
+    .pay__block-info-date-items {
+        width: 100%;
+    }
+    .pay__block-info-btns {
+        width: 100%;
+    }
+    .pay__block-info-line {
+        width: 100%;
+    }
+}
+@media (max-width: 450px) {
+    .pay__block-info-type-line {
+        display: none;
+    }
+    .pay__block-card-items-price {
+        width: 50px;
+    }
+}

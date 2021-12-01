@@ -3,3 +3,4 @@
 @@include('category/category.js')
 @@include('catalog/catalog.js')
 @@include('detail/detail.js')
+@@include('pay/pay.js')
