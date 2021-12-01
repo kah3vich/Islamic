@@ -8527,7 +8527,7 @@ input[type=range]::-webkit-slider-runnable-track {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  padding: 0 0 0 20px;
+  padding: 0 20px 0 20px;
   background: #F9F9FB;
 }
 
@@ -8588,7 +8588,7 @@ input[type=range]::-webkit-slider-runnable-track {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  padding: 0 0 0 20px;
+  padding: 0 20px 0 20px;
   background: #F9F9FB;
 }
 
