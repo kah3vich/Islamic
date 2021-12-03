@@ -105,6 +105,20 @@ input[type="range" i] {
 .opacity-5 {
     opacity: 0.5;
 }
+[dir="rtl"] {
+    .catl-headers__nav-text-filter-wrapper {
+        left: 0;
+        right: auto;
+    }
+    .cat-content__block-count-next,
+    .cat-content__block-count-prev {
+        transform: rotate(180deg);
+    }
+    .cat-content__block-count-next,
+    .cat-content__block-count-prev {
+        margin: 0 0 9px 0;
+    }
+}
 
 .header {
     position: fixed;

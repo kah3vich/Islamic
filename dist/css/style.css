@@ -5694,7 +5694,7 @@
   background: #ADD4A9;
   border-radius: 23px;
   position: absolute;
-  top: 235px;
+  top: 229px;
   right: 16px;
   display: none;
   -webkit-transition: all 0.5s ease;
@@ -8767,6 +8767,23 @@ input[type=range i] {
 
 .opacity-5 {
   opacity: 0.5;
+}
+
+[dir=rtl] .catl-headers__nav-text-filter-wrapper {
+  left: 0;
+  right: auto;
+}
+
+[dir=rtl] .cat-content__block-count-next,
+[dir=rtl] .cat-content__block-count-prev {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+[dir=rtl] .cat-content__block-count-next,
+[dir=rtl] .cat-content__block-count-prev {
+  margin: 0 0 9px 0;
 }
 
 .header {
