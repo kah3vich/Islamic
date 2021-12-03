@@ -118,6 +118,26 @@ input[type="range" i] {
     .cat-content__block-count-prev {
         margin: 0 0 9px 0;
     }
+    .det-message__block-textarea {
+        margin: 0 72px 0 0;
+    }
+    .det-message__block-btn {
+        margin: 24px 72px 0 0;
+    }
+    .det-message__block-photo {
+        right: 0;
+        left: auto;
+    }
+    .det-message__list-item-messages {
+        margin: 21px 72px 0 0;
+    }
+    .det-message__list-item-client {
+        margin: 0 72px 0 0;
+    }
+    .det-message__list-item-photo {
+        right: 0;
+        left: auto;
+    }
 }
 
 .header {

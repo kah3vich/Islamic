@@ -3048,6 +3048,14 @@
   top: 0;
   left: 0;
   border-radius: 50%;
+  overflow: hidden;
+}
+
+.det-message__block-photo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .det-message__block-textarea {
@@ -3187,6 +3195,14 @@
   height: 48px;
   background: #749471;
   border-radius: 50%;
+  overflow: hidden;
+}
+
+.det-message__list-item-photo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .det-message__list-item-client {
@@ -8784,6 +8800,32 @@ input[type=range i] {
 [dir=rtl] .cat-content__block-count-next,
 [dir=rtl] .cat-content__block-count-prev {
   margin: 0 0 9px 0;
+}
+
+[dir=rtl] .det-message__block-textarea {
+  margin: 0 72px 0 0;
+}
+
+[dir=rtl] .det-message__block-btn {
+  margin: 24px 72px 0 0;
+}
+
+[dir=rtl] .det-message__block-photo {
+  right: 0;
+  left: auto;
+}
+
+[dir=rtl] .det-message__list-item-messages {
+  margin: 21px 72px 0 0;
+}
+
+[dir=rtl] .det-message__list-item-client {
+  margin: 0 72px 0 0;
+}
+
+[dir=rtl] .det-message__list-item-photo {
+  right: 0;
+  left: auto;
 }
 
 .header {
