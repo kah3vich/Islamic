@@ -812,14 +812,13 @@ input[type="range" i] {
     justify-content: center;
     &__entry {
         width: 540px;
-        height: 523px;
         background: #fff;
         position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        padding: 53px 0 0 0;
+        padding: 53px 0 45px 0;
         &-title {
             font-family: Roboto;
             font-style: normal;
@@ -859,7 +858,7 @@ input[type="range" i] {
                     color: #C2C2C2;
                 }
             }
-            &::after {
+            &-add {
                 content: "Ваш email";
                 position: absolute;
                 top: -30px;
@@ -907,7 +906,7 @@ input[type="range" i] {
                     color: #C2C2C2;
                 }
             }
-            &::after {
+            &-add {
                 content: "Ваш пароль";
                 position: absolute;
                 top: -30px;
@@ -978,6 +977,17 @@ input[type="range" i] {
                 text-decoration-line: underline;
                 cursor: pointer;
             }
+            & a {
+                margin: 0 0 0 7px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 122%;
+                letter-spacing: 0.5px;
+                color: #000000;
+                text-decoration-line: underline;
+                cursor: pointer;
+            }
         }
         &-close {
             position: absolute;
@@ -996,14 +1006,13 @@ input[type="range" i] {
     }
     &__reg {
         width: 540px;
-        height: 592px;
         background: #fff;
         position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        padding: 53px 0 0 0;
+        padding: 53px 0 45px 0;
         &-title {
             font-family: Roboto;
             font-style: normal;
@@ -1043,7 +1052,7 @@ input[type="range" i] {
                     color: #C2C2C2;
                 }
             }
-            &::after {
+            &-add {
                 content: "Ваш email";
                 position: absolute;
                 top: -30px;
@@ -1091,7 +1100,7 @@ input[type="range" i] {
                     color: #C2C2C2;
                 }
             }
-            &::after {
+            &-add {
                 content: "Придумайте пароль*";
                 position: absolute;
                 top: -30px;
@@ -1139,7 +1148,7 @@ input[type="range" i] {
                     color: #C2C2C2;
                 }
             }
-            &::after {
+            &-add {
                 content: "Повторите пароль*";
                 position: absolute;
                 top: -30px;
@@ -1210,6 +1219,17 @@ input[type="range" i] {
                 text-decoration-line: underline;
                 cursor: pointer;
             }
+            & a {
+                margin: 0 7px 0 7px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 122%;
+                letter-spacing: 0.5px;
+                color: #000000;
+                text-decoration-line: underline;
+                cursor: pointer;
+            }
         }
         &-close {
             position: absolute;
@@ -1228,13 +1248,13 @@ input[type="range" i] {
     }
     &__regs {
         width: 540px;
-        height: 145px;
         background: #fff;
         position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 35px 0;
         &-title {
             font-family: Roboto;
             font-style: normal;
@@ -1262,14 +1282,13 @@ input[type="range" i] {
     }
     &__recovery {
         width: 540px;
-        height: 437px;
         background: #fff;
         position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        padding: 53px 0 0 0;
+        padding: 53px 0 45px 0;
         &-title {
             font-family: Roboto;
             font-style: normal;
@@ -1309,7 +1328,7 @@ input[type="range" i] {
                     color: #C2C2C2;
                 }
             }
-            &::after {
+            &-add {
                 content: "Ваш email";
                 position: absolute;
                 top: -30px;
@@ -1380,6 +1399,17 @@ input[type="range" i] {
                 text-decoration-line: underline;
                 cursor: pointer;
             }
+            & a {
+                margin: 0 7px 0 7px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 122%;
+                letter-spacing: 0.5px;
+                color: #000000;
+                text-decoration-line: underline;
+                cursor: pointer;
+            }
         }
         &-close {
             position: absolute;
@@ -1410,13 +1440,13 @@ input[type="range" i] {
     }
     &__recoverys {
         width: 540px;
-        height: 173px;
         background: #fff;
         position: relative;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 35px 0;
         &-title {
             font-family: Roboto;
             font-style: normal;

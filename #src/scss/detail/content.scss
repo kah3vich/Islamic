@@ -482,6 +482,12 @@
             &-photo {
                 width: 71px;
                 height: 71px;
+                overflow: hidden;
+                & img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
             }
             &-content {
                 display: flex;
