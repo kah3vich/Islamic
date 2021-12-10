@@ -12968,8 +12968,9 @@ input[type=range i] {
             justify-content: center;
   }
 
-  .ind-header__nav-list .ind-header__nav-item:nth-child(1) {
-    opacity: 0;
+  .ind-header__nav-item-basket,
+  .ind-header__nav-item-client {
+    display: none;
   }
 
   .ind-header__nav-logo {
@@ -13490,10 +13491,6 @@ input[type=range i] {
 
   .ind-partner {
     padding: 55px 0 0 0;
-  }
-
-  .language-select-item {
-    display: none;
   }
 
   .search-header__block-input-btn {
