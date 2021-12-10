@@ -1,0 +1,21 @@
+@media (max-width: 1050px) {
+    .search-header .containers {
+        padding: 0 90px;
+    }
+    .search-news .containers {
+        padding: 0 90px;
+    }
+}
+@media (max-width: 750px) {
+    .search-header .containers {
+        padding: 0 30px;
+    }
+    .search-news .containers {
+        padding: 0 30px;
+    }
+}
+@media (max-width: 500px) {
+    .search-header__block-input-btn {
+        margin: 0 20px;
+    }
+}

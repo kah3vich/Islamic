@@ -4,3 +4,4 @@
 @@include('catalog/catalog.js')
 @@include('detail/detail.js')
 @@include('pay/pay.js')
+@@include('search/search.js')
