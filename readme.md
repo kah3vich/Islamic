@@ -76,7 +76,7 @@ npm run build
 
 <!-- ||| -->
 
-<div align="center" id="line">
+<div align="center" id="link">
     <br />
     <img src="https://raw.githubusercontent.com/kah3vich/readme-project-base/main/assets/svg/link.svg" alt="" width="100%" height="29px">
     <br />
